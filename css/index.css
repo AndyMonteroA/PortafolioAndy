@@ -31,7 +31,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Listas */
 ul,
 ol {
   margin-left: 20px;
@@ -43,7 +42,6 @@ ol li {
   margin-bottom: 8px;
 }
 
-/* Enlaces */
 a {
   color: #3498db;
   text-decoration: none;
@@ -53,7 +51,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Citas */
 blockquote {
   background-color: #f9f9f9;
   padding: 10px 15px;

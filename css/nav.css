@@ -19,9 +19,7 @@
     gap: 1rem;
     font-size: 1.1rem;
     padding: 0;
-    /* Elimina los márgenes y padding del <ul> */
     margin: 0;
-    /* Asegura que no haya márgenes adicionales */
   }
   ul>li {
     display: flex;
@@ -30,11 +28,8 @@
   
   ul>li>a>img {
     width: 30px;
-    /* Tamaño de la imagen */
     height: 30px;
-    /* Asegura que la imagen tenga una altura constante */
     margin-right: 8px;
-    /* Espacio entre la imagen y el texto */
   }
   
   ul>li>a {
@@ -43,22 +38,15 @@
     padding: 0.5rem;
     display: flex;
     align-items: center;
-    /* Centra el texto con la imagen */
     border: 2px solid transparent;
-    /* Borde transparente para mantener el espacio */
     border-radius: 4px;
-    /* Bordes redondeados */
     transition: all 0.3s ease;
-    /* Transición suave */
   }
   
   ul>li>a:hover {
     background-color: #3498db;
-    /* Fondo oscuro cuando se pasa el mouse */
     border-color: #3498db;
-    /* Borde azul alrededor del enlace */
     color: #fff;
-    /* Mantener color blanco en el texto */
     text-decoration: none;
   }
   
