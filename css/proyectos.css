@@ -41,9 +41,9 @@ body {
   flex-direction: column;
   background-color: #41cdcb;
   border-radius: 10px;
-  width: 370px;
+  width: 330px;
   height: 700px;
-  padding: 60px 40px;
+  padding: 40px;
  
 }
 
@@ -76,6 +76,7 @@ body {
   font-size: 1 rem;
   margin-bottom: 50px;
 }
+
 
 .imagenes>img {
   width: 250px;
