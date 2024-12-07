@@ -1,0 +1,75 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado {
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.1rem;
+    padding: 0;
+    /* Elimina los márgenes y padding del <ul> */
+    margin: 0;
+    /* Asegura que no haya márgenes adicionales */
+  }
+  ul>li {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul>li>a>img {
+    width: 30px;
+    /* Tamaño de la imagen */
+    height: 30px;
+    /* Asegura que la imagen tenga una altura constante */
+    margin-right: 8px;
+    /* Espacio entre la imagen y el texto */
+  }
+  
+  ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    /* Centra el texto con la imagen */
+    border: 2px solid transparent;
+    /* Borde transparente para mantener el espacio */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    transition: all 0.3s ease;
+    /* Transición suave */
+  }
+  
+  ul>li>a:hover {
+    background-color: #3498db;
+    /* Fondo oscuro cuando se pasa el mouse */
+    border-color: #3498db;
+    /* Borde azul alrededor del enlace */
+    color: #fff;
+    /* Mantener color blanco en el texto */
+    text-decoration: none;
+  }
+  
+  .footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
